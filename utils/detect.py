@@ -1,5 +1,9 @@
 from typing import Dict, List, Any
 
+import logging
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+
 
 def detect_aws_entities(comprehend_client, text: str) -> List[Dict]:
     """

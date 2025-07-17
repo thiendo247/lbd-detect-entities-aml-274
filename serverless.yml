@@ -64,6 +64,14 @@ provider:
             - comprehend:DetectKeyPhrases
             - comprehend:DetectDominantLanguage
           Resource: "*"
+        - Effect: Allow
+          Action:
+            - dynamodb:PutItem
+            - dynamodb:GetItem
+            - dynamodb:UpdateItem
+            - dynamodb:Query
+            - dynamodb:Scan
+          Resource: "*"
 
 functions:
   detectEntityLambda:

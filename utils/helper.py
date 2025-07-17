@@ -1,13 +1,6 @@
 import re
 from datetime import datetime
 from typing import Dict, List, Any
-import logging
-
-# Configure logging
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-
-
 
 
 # HELPER FUNCTIONS

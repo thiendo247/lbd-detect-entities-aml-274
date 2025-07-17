@@ -1,5 +1,8 @@
 from .helper import *
 
+import logging
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 def extract_financial_entities(text: str) -> List[Dict]:
     """

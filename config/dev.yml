@@ -7,8 +7,8 @@ max_file_size: 10485760
 memory_size: 512
 
 # S3 paths
-s3_input_prefix: raw-data/article-data-crawler/input
-s3_output_prefix: raw-data/article-data-crawler/output
+s3_input_prefix: raw-data/
+s3_output_prefix: processed-data/
 
 # API Gateway settings
 cors_enabled: true
