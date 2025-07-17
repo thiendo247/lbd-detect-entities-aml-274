@@ -1,25 +1,8 @@
-# lambda_ner_processor
-"""
-AWS Lambda Function cho Named Entity Recognition (NER)
-Kết hợp AWS Comprehend + Custom Logic cho AML Analysis
-
-Architecture:
-- AWS Comprehend: NER cơ bản (PERSON, ORGANIZATION, LOCATION, etc.)
-- Custom Logic: Trích xuất entities đặc thù cho Financial Crime
-- RegEx Patterns: Phát hiện monetary amounts, time references
-- Domain-specific: Criminal organizations, financial crime terms
-"""
-
 import boto3
-import json
-import re
-from datetime import datetime
-from typing import Dict, List, Any
-import logging
-from .ultils.detect import *
-from .ultils.extract import  *
+from ultils.detect import *
+from ultils.extract import  *
 
-# Configure logging
+# logging
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 

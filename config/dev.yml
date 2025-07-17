@@ -1,14 +1,14 @@
 # Development environment configuration
-s3_bucket: hackathon-274-aml-group-13-bucket
-deployment_bucket: hackathon-anl-artifacts-serverless-deploy-dev
+s3_bucket: aml-group-274-lambda
+deployment_bucket: aml-artifacts-serverless-deploy-dev
 log_level: INFO
 api_timeout: 30
 max_file_size: 10485760
 memory_size: 512
 
 # S3 paths
-s3_input_prefix: raw-data-layer-1/article-data-crawler/input
-s3_output_prefix: raw-data-layer-1/article-data-crawler/outout
+s3_input_prefix: raw-data/article-data-crawler/input
+s3_output_prefix: raw-data/article-data-crawler/output
 
 # API Gateway settings
 cors_enabled: true

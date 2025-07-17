@@ -1,11 +1,4 @@
-import re
-from datetime import datetime
 from typing import Dict, List, Any
-import logging
-
-# Configure logging
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
 
 
 def detect_aws_entities(comprehend_client, text: str) -> List[Dict]:
@@ -25,19 +18,19 @@ def detect_aws_entities(comprehend_client, text: str) -> List[Dict]:
     Limit: AWS Comprehend giới hạn 5000 characters per request
     """
     try:
-        # Truncate text if too long (AWS Comprehend limit)
+        # truncate text if too long (AWS Comprehend limit)
         text_to_analyze = text[:5000] if len(text) > 5000 else text
 
-        # Call AWS Comprehend
+        # call AWS Comprehend
         response = comprehend_client.detect_entities(
             Text=text_to_analyze,
             LanguageCode='en'  # English language
         )
 
-        # Process và filter results
+        # process và filter results
         entities = []
         for entity in response['Entities']:
-            # Chỉ lấy entities có confidence score cao
+            # chỉ lấy entities có confidence score cao
             if entity['Score'] >= 0.7:  # Threshold: 70% confidence
                 processed_entity = {
                     'text': entity['Text'],
@@ -49,7 +42,7 @@ def detect_aws_entities(comprehend_client, text: str) -> List[Dict]:
                 }
                 entities.append(processed_entity)
 
-        # Sort by confidence score (highest first)
+        # sort by confidence score (highest first)
         entities.sort(key=lambda x: x['confidence'], reverse=True)
 
         logger.info(f"AWS Comprehend found {len(entities)} high-confidence entities")

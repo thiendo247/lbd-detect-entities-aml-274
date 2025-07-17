@@ -1,0 +1,479 @@
+{
+  "statusCode": 200,
+  "ner_results": {
+    "aws_entities": [
+      {
+        "text": "April 27, 2020",
+        "type": "DATE",
+        "confidence": 0.9996,
+        "start_offset": 1327,
+        "end_offset": 1341,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.8,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Villani",
+        "type": "PERSON",
+        "confidence": 0.9994,
+        "start_offset": 1298,
+        "end_offset": 1305,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Anthony Villani",
+        "type": "PERSON",
+        "confidence": 0.9993,
+        "start_offset": 246,
+        "end_offset": 261,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Villani",
+        "type": "PERSON",
+        "confidence": 0.9992,
+        "start_offset": 381,
+        "end_offset": 388,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Villani",
+        "type": "PERSON",
+        "confidence": 0.9991,
+        "start_offset": 1509,
+        "end_offset": 1516,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Villani",
+        "type": "PERSON",
+        "confidence": 0.9989,
+        "start_offset": 1648,
+        "end_offset": 1655,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Rhino Sports",
+        "type": "ORGANIZATION",
+        "confidence": 0.9987,
+        "start_offset": 536,
+        "end_offset": 548,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Villani",
+        "type": "PERSON",
+        "confidence": 0.9987,
+        "start_offset": 775,
+        "end_offset": 782,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Elmsford",
+        "type": "LOCATION",
+        "confidence": 0.9986,
+        "start_offset": 416,
+        "end_offset": 424,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.9,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Wednesday",
+        "type": "DATE",
+        "confidence": 0.9985,
+        "start_offset": 60,
+        "end_offset": 69,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.8,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Rhino Sports",
+        "type": "ORGANIZATION",
+        "confidence": 0.9984,
+        "start_offset": 1004,
+        "end_offset": 1016,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Bronx",
+        "type": "LOCATION",
+        "confidence": 0.9978,
+        "start_offset": 653,
+        "end_offset": 658,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.9,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "October 2019",
+        "type": "DATE",
+        "confidence": 0.9953,
+        "start_offset": 926,
+        "end_offset": 938,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.8,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "60-year-old",
+        "type": "QUANTITY",
+        "confidence": 0.995,
+        "start_offset": 392,
+        "end_offset": 403,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "October 2020",
+        "type": "DATE",
+        "confidence": 0.9929,
+        "start_offset": 943,
+        "end_offset": 955,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.8,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "over $300,000",
+        "type": "QUANTITY",
+        "confidence": 0.9913,
+        "start_offset": 974,
+        "end_offset": 987,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "21 months",
+        "type": "QUANTITY",
+        "confidence": 0.9897,
+        "start_offset": 304,
+        "end_offset": 313,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "nearly $25 million",
+        "type": "QUANTITY",
+        "confidence": 0.9742,
+        "start_offset": 130,
+        "end_offset": 148,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Westchester",
+        "type": "LOCATION",
+        "confidence": 0.9703,
+        "start_offset": 663,
+        "end_offset": 674,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.9,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "thousands of gamblers",
+        "type": "QUANTITY",
+        "confidence": 0.9631,
+        "start_offset": 725,
+        "end_offset": 746,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Kiyo Matsumoto",
+        "type": "PERSON",
+        "confidence": 0.9444,
+        "start_offset": 226,
+        "end_offset": 240,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "LEGAL_OFFICIAL"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Mafia",
+        "type": "ORGANIZATION",
+        "confidence": 0.9374,
+        "start_offset": 32,
+        "end_offset": 37,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "at least $1 million annually",
+        "type": "QUANTITY",
+        "confidence": 0.8593,
+        "start_offset": 691,
+        "end_offset": 719,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.7,
+        "risk_indicators": [],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "Eastern District of New York’s Organized Crime and Gangs Section",
+        "type": "ORGANIZATION",
+        "confidence": 0.8497,
+        "start_offset": 1802,
+        "end_offset": 1866,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [
+          "CRIMINAL_ORGANIZATION"
+        ],
+        "validation_status": "VALIDATED"
+      },
+      {
+        "text": "months later",
+        "type": "DATE",
+        "confidence": 0.7369,
+        "start_offset": 1526,
+        "end_offset": 1538,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.8,
+        "risk_indicators": [],
+        "validation_status": "NEEDS_REVIEW"
+      },
+      {
+        "text": "Mafia",
+        "type": "ORGANIZATION",
+        "confidence": 0.7338,
+        "start_offset": 579,
+        "end_offset": 584,
+        "source": "aws_comprehend",
+        "aml_relevance": 1,
+        "risk_indicators": [],
+        "validation_status": "NEEDS_REVIEW"
+      },
+      {
+        "text": "US",
+        "type": "LOCATION",
+        "confidence": 0.7334,
+        "start_offset": 208,
+        "end_offset": 210,
+        "source": "aws_comprehend",
+        "aml_relevance": 0.9,
+        "risk_indicators": [],
+        "validation_status": "NEEDS_REVIEW"
+      }
+    ],
+    "custom_entities": [
+      {
+        "text": "money laundering",
+        "start": 478,
+        "end": 494,
+        "type": "FINANCIAL_CRIME",
+        "category": "general_ml",
+        "confidence": 0.98,
+        "context": "msford, pleaded guilty earlier in the year to racketeering, money laundering and illegal gambling.. The captain owned Rhino Sports, an o",
+        "source": "custom_regex"
+      },
+      {
+        "text": "Organized Crime",
+        "start": 1833,
+        "end": 1848,
+        "type": "FINANCIAL_CRIME",
+        "category": "racketeering",
+        "confidence": 0.98,
+        "context": "case was investigated by the Eastern District of New York’s Organized Crime and Gangs Section. . . . . . . . . . . .",
+        "source": "custom_regex"
+      },
+      {
+        "text": "illegal gambling",
+        "start": 499,
+        "end": 515,
+        "type": "FINANCIAL_CRIME",
+        "category": "other_crimes",
+        "confidence": 0.98,
+        "context": "y earlier in the year to racketeering, money laundering and illegal gambling.. The captain owned Rhino Sports, an online business employ",
+        "source": "custom_regex"
+      },
+      {
+        "text": "racketeering",
+        "start": 464,
+        "end": 476,
+        "type": "FINANCIAL_CRIME",
+        "category": "racketeering",
+        "confidence": 0.97,
+        "context": "resident of Elmsford, pleaded guilty earlier in the year to racketeering, money laundering and illegal gambling.. The captain owned",
+        "source": "custom_regex"
+      }
+    ],
+    "financial_amounts": [
+      {
+        "amount": "$25 million",
+        "start": 137,
+        "end": 148,
+        "context": "legal online betting operation that netted nearly $25 million over the past 25 years, according to federal pros",
+        "normalized_value": 25000000,
+        "risk_level": "HIGH",
+        "source": "regex_extraction"
+      },
+      {
+        "amount": "$1 million",
+        "start": 700,
+        "end": 710,
+        "context": "he Bronx and Westchester county, took in at least $1 million annually from thousands of gamblers, federal pros",
+        "normalized_value": 1000000,
+        "risk_level": "MEDIUM",
+        "source": "regex_extraction"
+      },
+      {
+        "amount": "$300,000",
+        "start": 979,
+        "end": 987,
+        "context": "ober 2019 and October 2020, threatening them over $300,000 they stole from Rhino Sports, according to prosec",
+        "normalized_value": 300000,
+        "risk_level": "LOW",
+        "source": "regex_extraction"
+      }
+    ],
+    "time_references": [
+      {
+        "text": "over the past 25 years",
+        "start": 149,
+        "end": 171,
+        "type": "DURATION",
+        "context": "hat netted nearly $25 million over the past 25 years, according to federal prosecu",
+        "relevance_score": 1,
+        "source": "regex_extraction"
+      },
+      {
+        "text": "April 27, 2020",
+        "start": 1327,
+        "end": 1341,
+        "type": "SPECIFIC_DATE",
+        "context": " Villani reportedly warned on April 27, 2020.   . “Listen, get the f—–g mo",
+        "relevance_score": 0.6,
+        "source": "regex_extraction"
+      }
+    ],
+    "criminal_organizations": [
+      {
+        "text": "Mafia",
+        "start": 32,
+        "end": 37,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "MAFIA",
+        "context": "That’s a La Cosa No-No-stra.. A Mafia captain was sentenced Wednesday for run",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      },
+      {
+        "text": "Mafia",
+        "start": 579,
+        "end": 584,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "MAFIA",
+        "context": "no Sports, an online business employing Mafia figures as local bookmakers.. The opera",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      },
+      {
+        "text": "Lucchese crime family",
+        "start": 273,
+        "end": 294,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "CRIME_FAMILY",
+        "context": "tsumoto gave Anthony Villani, a reputed Lucchese crime family soldier, 21 months in the slammer for h",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      },
+      {
+        "text": "Lucchese crime family",
+        "start": 1680,
+        "end": 1701,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "CRIME_FAMILY",
+        "context": "elieved Villani or other members of the Lucchese crime family would physically hurt or kill him if he",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      },
+      {
+        "text": "Lucchese crime family",
+        "start": 273,
+        "end": 294,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "ITALIAN_MAFIA",
+        "context": "tsumoto gave Anthony Villani, a reputed Lucchese crime family soldier, 21 months in the slammer for h",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      },
+      {
+        "text": "Lucchese crime family",
+        "start": 1680,
+        "end": 1701,
+        "type": "CRIMINAL_ORGANIZATION",
+        "subtype": "ITALIAN_MAFIA",
+        "context": "elieved Villani or other members of the Lucchese crime family would physically hurt or kill him if he",
+        "risk_level": "HIGH",
+        "source": "custom_patterns"
+      }
+    ],
+    "processing_metadata": {
+      "article_id": "unique_article_id_1",
+      "processed_at": "2025-07-17T06:00:17.440590",
+      "content_length": 1890,
+      "total_entities_found": 40
+    }
+  }
+}
