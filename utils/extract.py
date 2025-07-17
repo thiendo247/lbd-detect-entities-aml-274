@@ -1,4 +1,4 @@
-from .helper import *
+from utils.ner_helper import *
 
 import logging
 logger = logging.getLogger()
